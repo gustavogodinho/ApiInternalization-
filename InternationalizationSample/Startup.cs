@@ -59,18 +59,18 @@ namespace InternationalizationSample
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "ToDo API",
-                    Description = "A simple example ASP.NET Core Web API",
+                    Title = "Api Globalization",
+                    Description = "Descrição",
                     TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Shayne Boyer",
+                        Name = "Gustavo",
                         Email = string.Empty,
                         Url = new Uri("https://twitter.com/spboyer"),
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Use under LICX",
+                        Name = "licenca",
                         Url = new Uri("https://example.com/license"),
                     }
                 });

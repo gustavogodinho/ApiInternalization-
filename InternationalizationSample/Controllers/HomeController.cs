@@ -23,12 +23,11 @@ namespace InternationalizationSample.Controllers
         }
 
         /// <summary>
-        /// Deletes a specific TodoItem.
+        /// Teste retorna mensagem de acordo com a Cultura informada na rota.
         /// </summary>
-        [HttpGet("displaysmessage")]
+        [HttpGet("mensagem")]
         public string Get()
         {
-
             return localizer["Teste"];
         }
 
@@ -47,7 +46,7 @@ namespace InternationalizationSample.Controllers
         ///
         /// </remarks>
         /// <param name="item"></param>
-        /// <returns>A newly created TodoItem</returns>
+        /// <returns>teste nao implementado</returns>
         /// <response code="201">Returns the newly created item</response>
         /// <response code="400">If the item is null</response>            
         [HttpPost]
